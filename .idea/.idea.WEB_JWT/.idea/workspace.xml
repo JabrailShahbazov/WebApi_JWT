@@ -8,8 +8,8 @@
     <projectFile>AuthServer.Shared/AuthServer.Shared.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f65a27-228b-47c6-ae1e-a5b1b5e24cbb" name="Default Changelist" comment="Entities elave edildi">
-      <change afterPath="$PROJECT_DIR$/AuthServer.Core/Repositoryes/IGenericRepositories.cs" afterDir="false" />
+    <list default="true" id="31f65a27-228b-47c6-ae1e-a5b1b5e24cbb" name="Default Changelist" comment="Repository Elave edildi">
+      <change afterPath="$PROJECT_DIR$/AuthServer.Shared/Dtos/ErrorDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EAAA5529-088B-451E-9C47-965AD445C18B/86/df800417/IQueryable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/89C610A4-99D5-4D8C-91F9-79F6B644C351/3/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EAAA5529-088B-451E-9C47-965AD445C18B/ca/47446cc9/IQueryable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -36,6 +38,7 @@
       <option value="$PROJECT_DIR$/AuthServer.Core/Models/Product.cs" />
       <option value="$PROJECT_DIR$/AuthServer.Core/Repositoryes/IGenericRepository.cs" />
       <option value="$PROJECT_DIR$/AuthServer.Core/Repositoryes/IGenericRepositories.cs" />
+      <option value="$PROJECT_DIR$/AuthServer.Shared/Dtos/ErrorDto.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wE5ciUe8X5RRVJnfBzk1vvKaHK" />
@@ -210,7 +213,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628010993085</updated>
-      <workItem from="1628011009421" duration="4058000" />
+      <workItem from="1628011009421" duration="4790000" />
     </task>
     <task id="LOCAL-00001" summary="LAyerler elave edildi">
       <created>1628012980394</created>
@@ -226,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628014529837</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Repository Elave edildi">
+      <created>1628015593627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628015593627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +260,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="LAyerler elave edildi" />
     <MESSAGE value="Entities elave edildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entities elave edildi" />
+    <MESSAGE value="Repository Elave edildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repository Elave edildi" />
   </component>
 </project>
