@@ -8,39 +8,12 @@
     <projectFile>AuthServer.Shared/AuthServer.Shared.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f65a27-228b-47c6-ae1e-a5b1b5e24cbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthServer.Core/AuthServer.Core.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthServer.Data/AuthServer.Data.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthServer.Service/AuthServer.Service.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthServer.Shared/AuthServer.Shared.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp1.Api/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp1.Api/MiniApp1.Api.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp1.Api/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp1.Api/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp1.Api/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp1.Api/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp1.Api/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp1.Api/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp2.Api/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp2.Api/MiniApp2.Api.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp2.Api/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp2.Api/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp2.Api/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp2.Api/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp2.Api/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp2.Api/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp3.Api/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp3.Api/MiniApp3.Api.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp3.Api/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp3.Api/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp3.Api/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp3.Api/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp3.Api/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp3.Api/appsettings.json" afterDir="false" />
+    <list default="true" id="31f65a27-228b-47c6-ae1e-a5b1b5e24cbb" name="Default Changelist" comment="LAyerler elave edildi">
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/Models/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/Models/UserApp.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/Models/UserRefreshToken.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthServer.Core/AuthServer.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Core/AuthServer.Core.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/89C610A4-99D5-4D8C-91F9-79F6B644C351/3/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/AuthServer.Core/Class1.cs" />
@@ -58,6 +34,9 @@
       <option value="$PROJECT_DIR$/MiniApp1.Api/Class1.cs" />
       <option value="$PROJECT_DIR$/AuthServer.Shared/Class1.cs" />
       <option value="$PROJECT_DIR$/AuthServer.Shared/AuthServer.Shared.csproj" />
+      <option value="$PROJECT_DIR$/AuthServer.Core/Models/UserApp.cs" />
+      <option value="$PROJECT_DIR$/AuthServer.Core/Models/UserRefreshToken.cs" />
+      <option value="$PROJECT_DIR$/AuthServer.Core/Models/Product.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wE5ciUe8X5RRVJnfBzk1vvKaHK" />
@@ -231,8 +210,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628010993085</updated>
-      <workItem from="1628011009421" duration="1704000" />
+      <workItem from="1628011009421" duration="3199000" />
     </task>
+    <task id="LOCAL-00001" summary="LAyerler elave edildi">
+      <created>1628012980394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628012980394</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,5 +241,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="LAyerler elave edildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="LAyerler elave edildi" />
   </component>
 </project>
