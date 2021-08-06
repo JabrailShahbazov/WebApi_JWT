@@ -11,10 +11,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f65a27-228b-47c6-ae1e-a5b1b5e24cbb" name="Default Changelist" comment="Avtomapper Elave edildi">
+    <list default="true" id="31f65a27-228b-47c6-ae1e-a5b1b5e24cbb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AuthServer.Service/Services/SignService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthServer.Core/Services/IServiceGeneric.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Core/Services/IServiceGeneric.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthServer.Service/Services/GenericService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Service/Services/ServiceGeneric.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +230,8 @@
       <workItem from="1628011009421" duration="5109000" />
       <workItem from="1628256538979" duration="8067000" />
       <workItem from="1628266866049" duration="2734000" />
-      <workItem from="1628271599042" duration="5089000" />
+      <workItem from="1628271599042" duration="5561000" />
+      <workItem from="1628281834225" duration="841000" />
     </task>
     <task id="LOCAL-00001" summary="LAyerler elave edildi">
       <created>1628012980394</created>
@@ -289,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628273780863</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="GenericService.cs Bitdi">
+      <created>1628277619264</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628277619264</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +328,7 @@
     <MESSAGE value="Lib Yuklendi ve dtolar yaradildi eyni zamandada unitOWork elavee edildi" />
     <MESSAGE value="data qatinda UnitOfWork.cs ve Repository hissesini yazim" />
     <MESSAGE value="Avtomapper Elave edildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avtomapper Elave edildi" />
+    <MESSAGE value="GenericService.cs Bitdi" />
+    <option name="LAST_COMMIT_MESSAGE" value="GenericService.cs Bitdi" />
   </component>
 </project>
