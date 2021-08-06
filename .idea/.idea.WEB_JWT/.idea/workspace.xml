@@ -11,10 +11,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e262c583-176c-448a-9889-8c3ad5c68855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AuthServer.Shared/Configuration/CustomTokenOption.cs" afterDir="false" />
+    <list default="true" id="e262c583-176c-448a-9889-8c3ad5c68855" name="Changes" comment="Option Pattern tetbiq edildi">
+      <change afterPath="$PROJECT_DIR$/AuthServer.Service/Services/TokenService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628277619264</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Option Pattern tetbiq edildi">
+      <created>1628285529643</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628285529643</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,6 +349,7 @@
     <MESSAGE value="data qatinda UnitOfWork.cs ve Repository hissesini yazim" />
     <MESSAGE value="Avtomapper Elave edildi" />
     <MESSAGE value="GenericService.cs Bitdi" />
-    <option name="LAST_COMMIT_MESSAGE" value="GenericService.cs Bitdi" />
+    <MESSAGE value="Option Pattern tetbiq edildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Option Pattern tetbiq edildi" />
   </component>
 </project>
