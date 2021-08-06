@@ -12,12 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31f65a27-228b-47c6-ae1e-a5b1b5e24cbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AuthServer.Data/Configurations/ProductConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthServer.Data/Configurations/UserAppConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthServer.Data/Configurations/UserRefreshTokenConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthServer.Data/Repositories/GenericRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/DTOs/ProductDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Service/DtoMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Service/ObjectMapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthServer.Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Data/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthServer.Service/AuthServer.Service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Service/AuthServer.Service.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +232,8 @@
       <updated>1628010993085</updated>
       <workItem from="1628011009421" duration="5109000" />
       <workItem from="1628256538979" duration="8067000" />
-      <workItem from="1628266866049" duration="2273000" />
+      <workItem from="1628266866049" duration="2734000" />
+      <workItem from="1628271599042" duration="1655000" />
     </task>
     <task id="LOCAL-00001" summary="LAyerler elave edildi">
       <created>1628012980394</created>
@@ -277,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628264156715</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="data qatinda UnitOfWork.cs ve Repository hissesini yazim">
+      <created>1628269491938</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628269491938</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +314,7 @@
     <MESSAGE value="Shared ErrorDto.csn hazirlandi" />
     <MESSAGE value="Response.cs ve Service Terefi yazidi" />
     <MESSAGE value="Lib Yuklendi ve dtolar yaradildi eyni zamandada unitOWork elavee edildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lib Yuklendi ve dtolar yaradildi eyni zamandada unitOWork elavee edildi" />
+    <MESSAGE value="data qatinda UnitOfWork.cs ve Repository hissesini yazim" />
+    <option name="LAST_COMMIT_MESSAGE" value="data qatinda UnitOfWork.cs ve Repository hissesini yazim" />
   </component>
 </project>
