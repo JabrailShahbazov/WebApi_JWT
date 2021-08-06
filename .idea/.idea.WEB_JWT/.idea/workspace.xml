@@ -11,11 +11,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f65a27-228b-47c6-ae1e-a5b1b5e24cbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AuthServer.Core/Services/IServiceGeneric.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthServer.Shared/Dtos/Response.cs" afterDir="false" />
+    <list default="true" id="31f65a27-228b-47c6-ae1e-a5b1b5e24cbb" name="Default Changelist" comment="Response.cs ve Service Terefi yazidi">
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/Configuration/Client.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/DTOs/ClientLoginDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/DTOs/ClientTokenDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/DTOs/CreateUserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/DTOs/LoginDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/DTOs/TokenDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/DTOs/UserAppDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/Services/IAuthenticationService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/Services/ITokenService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/Services/IUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/UnitOfWork/IUnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Data/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthServer.Core/AuthServer.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Core/AuthServer.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthServer.Data/AuthServer.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Data/AuthServer.Data.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +39,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/89C610A4-99D5-4D8C-91F9-79F6B644C351/3/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EAAA5529-088B-451E-9C47-965AD445C18B/86/df800417/IQueryable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EAAA5529-088B-451E-9C47-965AD445C18B/ca/47446cc9/IQueryable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/89c610a499d54d8c91f979f6b644c3519f80/3/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2e9beeb180834f4b9abea5f3db1bc8bd8f5578/7a/c3b06188/String.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -220,7 +232,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628010993085</updated>
       <workItem from="1628011009421" duration="5109000" />
-      <workItem from="1628256538979" duration="2698000" />
+      <workItem from="1628256538979" duration="7216000" />
     </task>
     <task id="LOCAL-00001" summary="LAyerler elave edildi">
       <created>1628012980394</created>
@@ -250,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628016318099</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Response.cs ve Service Terefi yazidi">
+      <created>1628259585001</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628259585001</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +297,7 @@
     <MESSAGE value="Entities elave edildi" />
     <MESSAGE value="Repository Elave edildi" />
     <MESSAGE value="Shared ErrorDto.csn hazirlandi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shared ErrorDto.csn hazirlandi" />
+    <MESSAGE value="Response.cs ve Service Terefi yazidi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Response.cs ve Service Terefi yazidi" />
   </component>
 </project>
