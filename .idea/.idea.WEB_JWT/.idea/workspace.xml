@@ -11,10 +11,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e262c583-176c-448a-9889-8c3ad5c68855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WEB_JWT.sln.DotSettings.user" afterDir="false" />
+    <list default="true" id="e262c583-176c-448a-9889-8c3ad5c68855" name="Changes" comment="TokenDuzeldilmesi hazir oldu">
+      <change afterPath="$PROJECT_DIR$/AuthServer.Service/Services/AuthenticationService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthServer.Service/Services/TokenService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Service/Services/TokenService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +35,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/89C610A4-99D5-4D8C-91F9-79F6B644C351/3/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba72efe7dbf249adbd79c391e9ea1a4b14368/a7/019b0141/JwtSecurityToken.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EAAA5529-088B-451E-9C47-965AD445C18B/86/df800417/IQueryable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EAAA5529-088B-451E-9C47-965AD445C18B/ca/47446cc9/IQueryable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/89c610a499d54d8c91f979f6b644c3519f80/3/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a5239047d47a40bb834dd3d6bec0393216788/00/cd8a2d17/Claim.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2e9beeb180834f4b9abea5f3db1bc8bd8f5578/7a/c3b06188/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Token_JWT/WEB_JWT/AuthServer.Service/Services/TokenService.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -234,7 +238,7 @@
       <workItem from="1628266866049" duration="2734000" />
       <workItem from="1628271599042" duration="5561000" />
       <workItem from="1628281834225" duration="841000" />
-      <workItem from="1628323654892" duration="2646000" />
+      <workItem from="1628323654892" duration="3913000" />
     </task>
     <task id="LOCAL-00001" summary="LAyerler elave edildi">
       <created>1628012980394</created>
@@ -313,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628286137967</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="TokenDuzeldilmesi hazir oldu">
+      <created>1628326957438</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1628326957438</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +359,7 @@
     <MESSAGE value="GenericService.cs Bitdi" />
     <MESSAGE value="Option Pattern tetbiq edildi" />
     <MESSAGE value="Random Refresh token Duzletim" />
-    <option name="LAST_COMMIT_MESSAGE" value="Random Refresh token Duzletim" />
+    <MESSAGE value="TokenDuzeldilmesi hazir oldu" />
+    <option name="LAST_COMMIT_MESSAGE" value="TokenDuzeldilmesi hazir oldu" />
   </component>
 </project>
