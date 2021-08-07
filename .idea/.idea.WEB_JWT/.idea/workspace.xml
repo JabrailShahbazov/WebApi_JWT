@@ -11,11 +11,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e262c583-176c-448a-9889-8c3ad5c68855" name="Changes" comment="TokenDuzeldilmesi hazir oldu">
-      <change afterPath="$PROJECT_DIR$/AuthServer.Service/Services/AuthenticationService.cs" afterDir="false" />
+    <list default="true" id="e262c583-176c-448a-9889-8c3ad5c68855" name="Changes" comment="AuthService Elave edildi">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthServer.Core/Services/IAuthenticationService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Core/Services/IAuthenticationService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthServer.Service/Services/AuthenticationService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Service/Services/AuthenticationService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +237,7 @@
       <workItem from="1628266866049" duration="2734000" />
       <workItem from="1628271599042" duration="5561000" />
       <workItem from="1628281834225" duration="841000" />
-      <workItem from="1628323654892" duration="3913000" />
+      <workItem from="1628323654892" duration="5789000" />
     </task>
     <task id="LOCAL-00001" summary="LAyerler elave edildi">
       <created>1628012980394</created>
@@ -324,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628326957438</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="AuthService Elave edildi">
+      <created>1628328246956</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1628328246956</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +366,7 @@
     <MESSAGE value="Option Pattern tetbiq edildi" />
     <MESSAGE value="Random Refresh token Duzletim" />
     <MESSAGE value="TokenDuzeldilmesi hazir oldu" />
-    <option name="LAST_COMMIT_MESSAGE" value="TokenDuzeldilmesi hazir oldu" />
+    <MESSAGE value="AuthService Elave edildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="AuthService Elave edildi" />
   </component>
 </project>
