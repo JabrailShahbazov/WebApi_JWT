@@ -22,7 +22,8 @@ namespace AuthServer.Service.Services
             var user = new UserApp
             {
                 Email = createUserDto.Email,
-                UserName = createUserDto.UserName
+                UserName = createUserDto.UserName,
+                City = createUserDto.City
             };
             var result = await _userManager.CreateAsync(user, createUserDto.Password);
 
@@ -33,7 +34,7 @@ namespace AuthServer.Service.Services
 
         }
 
-        public async Task<Response<UserAppDto>> GetUserByName(string userName)
+        public async Task<Response<UserAppDto>> GetUserByNameAsync(string userName)
         {
             var user = await _userManager.FindByNameAsync(userName);
 
