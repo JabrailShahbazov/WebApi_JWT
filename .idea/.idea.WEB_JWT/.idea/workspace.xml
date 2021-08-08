@@ -11,15 +11,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e262c583-176c-448a-9889-8c3ad5c68855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/WEB_JWT/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/WEB_JWT/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthServer.Data/Migrations/20210808071752_inition.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthServer.Data/Migrations/20210808071752_inition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthServer.Data/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
+    <list default="true" id="e262c583-176c-448a-9889-8c3ad5c68855" name="Changes" comment="migration elave edildi">
+      <change afterPath="$PROJECT_DIR$/AuthServer.Core/DTOs/RefreshTokenDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB_JWT_Api/Controllers/AuthController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB_JWT_Api/Controllers/CustomBaseController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthServer.Service/Services/SignService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Service/Services/SignService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/WEB_JWT_Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/WEB_JWT_Api.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +240,7 @@
       <workItem from="1628323654892" duration="6724000" />
       <workItem from="1628354726270" duration="1625000" />
       <workItem from="1628364003412" duration="4356000" />
-      <workItem from="1628406171956" duration="1629000" />
+      <workItem from="1628406171956" duration="3106000" />
     </task>
     <task id="LOCAL-00001" summary="LAyerler elave edildi">
       <created>1628012980394</created>
@@ -351,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628330891095</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="migration elave edildi">
+      <created>1628408000146</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1628408000146</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +393,8 @@
     <MESSAGE value="AuthService Elave edildi" />
     <MESSAGE value="AuthenticationService bitdi" />
     <MESSAGE value="UserappService Yazildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="UserappService Yazildi" />
+    <MESSAGE value="migration elave edildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="migration elave edildi" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
