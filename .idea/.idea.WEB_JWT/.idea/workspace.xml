@@ -11,9 +11,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e262c583-176c-448a-9889-8c3ad5c68855" name="Changes" comment="AuthenticationService bitdi">
-      <change afterPath="$PROJECT_DIR$/AuthServer.Service/Services/UserService.cs" afterDir="false" />
+    <list default="true" id="e262c583-176c-448a-9889-8c3ad5c68855" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.vs/WEB_JWT/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WEB_JWT/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Data/Migrations/20210808071752_inition.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Data/Migrations/20210808071752_inition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthServer.Data/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthServer.Service/Services/SignService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Service/Services/SignService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/WEB_JWT_Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/WEB_JWT_Api.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +40,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/89C610A4-99D5-4D8C-91F9-79F6B644C351/3/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Token_JWT/WEB_JWT/AuthServer.Service/Services/AuthenticationService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba72efe7dbf249adbd79c391e9ea1a4b14368/a7/019b0141/JwtSecurityToken.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EAAA5529-088B-451E-9C47-965AD445C18B/86/df800417/IQueryable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EAAA5529-088B-451E-9C47-965AD445C18B/ca/47446cc9/IQueryable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/89c610a499d54d8c91f979f6b644c3519f80/3/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a5239047d47a40bb834dd3d6bec0393216788/00/cd8a2d17/Claim.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2e9beeb180834f4b9abea5f3db1bc8bd8f5578/7a/c3b06188/String.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Token_JWT/WEB_JWT/AuthServer.Service/Services/TokenService.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -74,14 +79,13 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="RiderDpaPageId" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WEB_JWT_Api: IIS Express">
@@ -237,7 +241,10 @@
       <workItem from="1628266866049" duration="2734000" />
       <workItem from="1628271599042" duration="5561000" />
       <workItem from="1628281834225" duration="841000" />
-      <workItem from="1628323654892" duration="6462000" />
+      <workItem from="1628323654892" duration="6724000" />
+      <workItem from="1628354726270" duration="1625000" />
+      <workItem from="1628364003412" duration="4356000" />
+      <workItem from="1628406171956" duration="1629000" />
     </task>
     <task id="LOCAL-00001" summary="LAyerler elave edildi">
       <created>1628012980394</created>
@@ -337,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628330161738</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="UserappService Yazildi">
+      <created>1628330891095</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1628330891095</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,6 +389,11 @@
     <MESSAGE value="TokenDuzeldilmesi hazir oldu" />
     <MESSAGE value="AuthService Elave edildi" />
     <MESSAGE value="AuthenticationService bitdi" />
-    <option name="LAST_COMMIT_MESSAGE" value="AuthenticationService bitdi" />
+    <MESSAGE value="UserappService Yazildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserappService Yazildi" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
