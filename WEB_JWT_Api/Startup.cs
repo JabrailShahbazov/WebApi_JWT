@@ -11,6 +11,7 @@ using AuthServer.Data;
 using AuthServer.Data.Repositories;
 using AuthServer.Service.Services;
 using AuthServer.Shared.Configuration;
+using AuthServer.Shared.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -58,30 +59,11 @@ namespace WEB_JWT_Api
                 opt.Password.RequireNonAlphanumeric = false;
             }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
             services.Configure<CustomTokenOption>(Configuration.GetSection("TokenOption"));
-
             var tokenOption = Configuration.GetSection("TokenOption").Get<CustomTokenOption>();
 
+            services.AddCustomTokenAuth(tokenOption);
             services.Configure<List<Client>>(Configuration.GetSection("Clients"));
-            //Tkoen Almaq ve yayimlamaq uhchun
-            services.AddAuthentication(opt =>
-            {
-                opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            }).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, opt =>
-            {
-                opt.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidIssuer = tokenOption.Issuer,
-                    ValidAudience = tokenOption.Audience[0],
-                    IssuerSigningKey = SignService.GetSymmetricSecurityKey(tokenOption.SecurityKey),
 
-                    ValidateIssuerSigningKey = true,
-                    ValidateAudience = true,
-                    ValidateIssuer = true,
-                    ValidateLifetime = true,
-                    ClockSkew = TimeSpan.Zero
-                };
-            });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
