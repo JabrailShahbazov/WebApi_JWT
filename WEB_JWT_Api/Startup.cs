@@ -63,12 +63,15 @@ namespace WEB_JWT_Api
             services.Configure<CustomTokenOption>(Configuration.GetSection("TokenOption"));
 
             var tokenOption = Configuration.GetSection("TokenOption").Get<CustomTokenOption>();
+
             services.AddCustomTokenAuth(tokenOption);
 
             services.AddControllers().AddFluentValidation(option =>
             {
                 option.RegisterValidatorsFromAssemblyContaining<Startup>();
             });
+            services.UseCustomValidationResponse();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WEB_JWT_Api v1", Version = "v1" });

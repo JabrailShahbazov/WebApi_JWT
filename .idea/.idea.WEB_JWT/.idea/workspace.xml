@@ -11,23 +11,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e262c583-176c-448a-9889-8c3ad5c68855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MiniApp1.Api/Controllers/StockController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniApp2.Api/Controllers/InvoiceController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB_JWT_Api/Validations/CreateUserDtoValidator.cs" afterDir="false" />
+    <list default="true" id="e262c583-176c-448a-9889-8c3ad5c68855" name="Changes" comment="Fluent Validasiya elave oundu">
+      <change afterPath="$PROJECT_DIR$/AuthServer.Shared/Extensions/CustomValidationResponse.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthServer.Shared/Dtos/ErrorDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Shared/Dtos/ErrorDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniApp1.Api/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniApp1.Api/MiniApp1.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MiniApp1.Api/MiniApp1.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniApp1.Api/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniApp2.Api/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniApp2.Api/MiniApp2.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MiniApp2.Api/MiniApp2.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniApp2.Api/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniApp3.Api/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniApp3.Api/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/Controllers/ProductsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/WEB_JWT_Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/WEB_JWT_Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +242,7 @@
       <workItem from="1628406171956" duration="10608000" />
       <workItem from="1628435182550" duration="6215000" />
       <workItem from="1628533256661" duration="640000" />
-      <workItem from="1628599525094" duration="1232000" />
+      <workItem from="1628599525094" duration="2017000" />
     </task>
     <task id="LOCAL-00001" summary="LAyerler elave edildi">
       <created>1628012980394</created>
@@ -391,7 +377,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628437144986</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fluent Validasiya elave oundu">
+      <created>1628600789195</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1628600789195</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fluent Validasiya elave oundu">
+      <created>1628600799371</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1628600799371</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +434,8 @@
     <MESSAGE value="RefreshTokenDto.cs ve Auth Cntroler duzeldildi" />
     <MESSAGE value="duct Controller elave edildi" />
     <MESSAGE value="Json filallrinde elaveler etdim Extenion metodlar yazdim" />
-    <option name="LAST_COMMIT_MESSAGE" value="Json filallrinde elaveler etdim Extenion metodlar yazdim" />
+    <MESSAGE value="Fluent Validasiya elave oundu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fluent Validasiya elave oundu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
