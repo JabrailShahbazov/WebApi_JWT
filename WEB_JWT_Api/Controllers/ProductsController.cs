@@ -37,7 +37,7 @@ namespace WEB_JWT_Api.Controllers
             return ActionResultInstance(await _genericRepository.AddAsync(productDto));
         }
 
-        [HttpPost]
+        [HttpPut]
         public async Task<IActionResult> UpdateProduct(ProductDto productDto)
         {
             return ActionResultInstance(await _genericRepository.Update(productDto, productDto.Id));

@@ -12,14 +12,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e262c583-176c-448a-9889-8c3ad5c68855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AuthServer.Shared/Extensions/CustomTokenAuth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniApp1.Api/Controllers/StockController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniApp2.Api/Controllers/InvoiceController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB_JWT_Api/Validations/CreateUserDtoValidator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEB_JWT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthServer.Service/Services/SignService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Shared/Services/SignService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthServer.Shared/AuthServer.Shared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Shared/AuthServer.Shared.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniApp1.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniApp1.Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniApp1.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MiniApp1.Api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniApp2.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniApp2.Api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthServer.Shared/Dtos/ErrorDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthServer.Shared/Dtos/ErrorDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniApp1.Api/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniApp1.Api/MiniApp1.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MiniApp1.Api/MiniApp1.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniApp1.Api/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniApp2.Api/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniApp2.Api/MiniApp2.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MiniApp2.Api/MiniApp2.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniApp2.Api/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniApp3.Api/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniApp3.Api/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/Controllers/ProductsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/WEB_JWT_Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/WEB_JWT_Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_JWT_Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_JWT_Api/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +84,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlserver" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34993446" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -86,7 +94,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="ReSpellerSettingsId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WEB_JWT_Api: IIS Express">
@@ -246,7 +254,9 @@
       <workItem from="1628354726270" duration="1625000" />
       <workItem from="1628364003412" duration="4356000" />
       <workItem from="1628406171956" duration="10608000" />
-      <workItem from="1628435182550" duration="1608000" />
+      <workItem from="1628435182550" duration="6215000" />
+      <workItem from="1628533256661" duration="640000" />
+      <workItem from="1628599525094" duration="1232000" />
     </task>
     <task id="LOCAL-00001" summary="LAyerler elave edildi">
       <created>1628012980394</created>
@@ -374,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628417227540</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Json filallrinde elaveler etdim Extenion metodlar yazdim">
+      <created>1628437144986</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1628437144986</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +433,8 @@
     <MESSAGE value="migration elave edildi" />
     <MESSAGE value="RefreshTokenDto.cs ve Auth Cntroler duzeldildi" />
     <MESSAGE value="duct Controller elave edildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="duct Controller elave edildi" />
+    <MESSAGE value="Json filallrinde elaveler etdim Extenion metodlar yazdim" />
+    <option name="LAST_COMMIT_MESSAGE" value="Json filallrinde elaveler etdim Extenion metodlar yazdim" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

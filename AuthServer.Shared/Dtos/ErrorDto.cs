@@ -4,10 +4,7 @@ namespace AuthServer.Shared.Dtos
 {
     public class ErrorDto
     {
-        public ErrorDto()
-        {
-            Errors = new List<string>();
-        }
+       
 
         public ErrorDto(string error, bool isShow)
         {
@@ -21,7 +18,7 @@ namespace AuthServer.Shared.Dtos
             IsShow = isShow;
         }
 
-        public List<string> Errors { get; private set; }
+        public List<string> Errors { get; private set; } = new List<string>();
 
         public bool IsShow { get; private set; }
     }

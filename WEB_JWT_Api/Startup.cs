@@ -12,6 +12,7 @@ using AuthServer.Data.Repositories;
 using AuthServer.Service.Services;
 using AuthServer.Shared.Configuration;
 using AuthServer.Shared.Extensions;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -58,17 +59,19 @@ namespace WEB_JWT_Api
                 opt.User.RequireUniqueEmail = true;
                 opt.Password.RequireNonAlphanumeric = false;
             }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
             services.Configure<CustomTokenOption>(Configuration.GetSection("TokenOption"));
+
             var tokenOption = Configuration.GetSection("TokenOption").Get<CustomTokenOption>();
-
             services.AddCustomTokenAuth(tokenOption);
-            services.Configure<List<Client>>(Configuration.GetSection("Clients"));
 
-
-            services.AddControllers();
+            services.AddControllers().AddFluentValidation(option =>
+            {
+                option.RegisterValidatorsFromAssemblyContaining<Startup>();
+            });
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WEB_JWT_Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WEB_JWT_Api v1", Version = "v1" });
             });
         }
 
